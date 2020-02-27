@@ -16,7 +16,7 @@ This is a Python 3 project.
 
 ## Caveat
 This program finds the nearest stores from the user provided address. It is a basic CLI tool with address capabilities. The distance is implemented with the haversine's formula to determine distance. The program can be optimized by dumping the CSV data into a NOSQL database where it can be easily accessed with Latitude and Longitude. Creating the boundary box helps narrow down data choices from the list of stores but it limits the radius to a hard coded distance. This can be acquired fromt the user by adding another flag like --radius. All the distance calculations are done in Km by default. This is another feature that can be added into the code. Basic features were implemented in the given time constraint but features could be drastically improved to give user more control over various things like the output format, distance calculations etc. 
-
+There is also room for improvement in the testing of this program. There are several happy paths and error paths tests that can be added to the test suite.
 ## Author
 Vasudha kalia
     
